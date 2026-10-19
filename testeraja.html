@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Barang</title>
+</head>
+<body>
+    <h2>Daftar Inventaris Barang</h2>
+    <hr>
+    <fieldset>
+        <legend>Form Tambah Barang</legend>
+        <p>
+            <label>Nama Barang:</label><br>
+            <input type="text" name="barang" placeholder="Masukkan nama barang..." />
+        </p>
+        <p>
+            <input type="button" onclick="addBarang()" value="Tambah Barang" />
+        </p>
+    </fieldset>
+    <h3>Daftar Barang Tersedia:</h3>
+    <div>
+        <ul id="list-barang">
+        </ul>
+    </div>
+    <script src="fungsi.js"></script>
+</body>
+</html>
